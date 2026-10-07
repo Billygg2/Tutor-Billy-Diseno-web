@@ -1,5 +1,7 @@
 # Pop It! — Billy Salmeron
 
+https://billygg2.github.io/Tutor-Billy-Diseno-web/ Para ver sin ejecutar
+
 Landing page de una tienda de juguetes antiestrés (*pop it*), creada como tarea práctica de **Diseño Web** para el rol de tutor. El sitio es adaptable a distintos tamaños de pantalla y está disponible en **español y ruso**. Visual Code
 
 ## Contenido
