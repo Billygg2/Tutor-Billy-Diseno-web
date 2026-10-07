@@ -1,4 +1,4 @@
-/* ===== Menú hamburguesa ===== */
+/*  Menú hamburguesa  */
 const burger = document.querySelector('.header__burger');
 const menu = document.querySelector('.menu');
 const menuLinks = document.querySelectorAll('.menu__link');
@@ -21,7 +21,7 @@ window.addEventListener('resize', () => {
   if (window.innerWidth > 768) closeMenu();
 });
 
-/* ===== Cambio de idioma (ES <-> RU) ===== */
+/*  Cambio de idioma (ES <-> RU)  */
 const translations = {
   es: {
     pageTitle: 'Pop It! — NO_BURBUJAS.COM',
@@ -109,7 +109,6 @@ function setLanguage(lang) {
   try {
     localStorage.setItem('lang', lang);
   } catch (error) {
-    /* sin almacenamiento: se ignora */
   }
 }
 
