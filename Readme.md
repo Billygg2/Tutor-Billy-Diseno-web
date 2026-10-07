@@ -33,24 +33,6 @@ La página tiene cinco bloques:
 | **Google Fonts** | Tipografía **Montserrat** (pesos 400, 500, 600, 800 y 900), con soporte para cirílico. |
 
 
-```
-.
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── Pop It/
-│   └── images/
-│       ├── amongus.png
-│       ├── background.png
-│       ├── bg-grid.png
-│       ├── photo.jpg
-│       ├── round.png
-│       └── square.png
-└── README.md
-```
-
 ## Cumplimiento de los criterios de la tarea
 
 ### 1. Código válido y organizado con BEM
