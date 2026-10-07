@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pop It! — Billy Salmeron</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="Pop It/images/background.png" alt="" class="hero__bg">
+
+    <header class="header">
+      <a href="#" class="header__logo" data-i18n="logo">NO_BURBUJAS.COM</a>
+
+      <div class="header__actions">
+        <nav class="menu" aria-label="Menú principal" data-i18n-aria="menuLabel">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#about" class="menu__link" data-i18n="navAbout">NOSOTROS</a></li>
+            <li class="menu__item"><a href="#choose" class="menu__link" data-i18n="navSales">DESCUENTOS</a></li>
+            <li class="menu__item"><a href="#footer" class="menu__link" data-i18n="navContact">CONTACTO</a></li>
+          </ul>
+        </nav>
+
+        <button class="lang-switch" type="button" aria-label="Cambiar idioma a ruso" data-i18n-aria="switchLang">
+          <span class="lang-switch__option lang-switch__option_active" data-lang="es">ES</span>
+          <span class="lang-switch__option" data-lang="ru">RU</span>
+        </button>
+
+        <button class="header__burger" type="button" aria-label="Abrir menú" aria-expanded="false" data-i18n-aria="openMenu">
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="hero__content">
+      <div class="hero__text">
+        <h1 class="hero__title">POP IT!</h1>
+        <p class="hero__subtitle" data-i18n="heroSubtitle">¡El mejor juguete antiestrés: un plástico de burbujas infinito!</p>
+        <a href="#choose" class="button button_type_primary" data-i18n="buy">COMPRAR</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- QUÉ ES POP IT -->
+    <section class="about" id="about">
+      <h2 class="title" data-i18n="aboutTitle">¿Qué es un Pop it?</h2>
+      <p class="about__text" data-i18n="aboutText">Pop it significa literalmente «explótalo». Es un juego infantil que se puede comparar con reventar el plástico de burbujas de los embalajes. Pero a diferencia del plástico, los pop-its se pueden presionar «infinitamente» con sensaciones y sonidos característicos: decenas de burbujas de silicona simplemente se empujan hacia el otro lado.</p>
+    </section>
+
+    <!-- CATÁLOGO -->
+    <section class="choose" id="choose">
+      <h2 class="title" data-i18n="chooseTitle">¡Elige tu Pop-It!</h2>
+      <ul class="choose__list">
+        <li class="card">
+          <img src="Pop It/images/square.png" alt="Pop it cuadrado multicolor" class="card__image" data-i18n-alt="squareAlt">
+          <h3 class="card__name" data-i18n="squareName">Cuadrado multicolor</h3>
+          <a href="#" class="button button_type_small" data-i18n="buy">COMPRAR</a>
+        </li>
+        <li class="card">
+          <img src="Pop It/images/amongus.png" alt="Pop it Among Us efecto mármol" class="card__image" data-i18n-alt="amongAlt">
+          <h3 class="card__name" data-i18n="amongName">Among Us, efecto mármol</h3>
+          <a href="#" class="button button_type_small" data-i18n="buy">COMPRAR</a>
+        </li>
+        <li class="card">
+          <img src="Pop It/images/round.png" alt="Pop it redondo multicolor" class="card__image" data-i18n-alt="roundAlt">
+          <h3 class="card__name" data-i18n="roundName">Redondo multicolor</h3>
+          <a href="#" class="button button_type_small" data-i18n="buy">COMPRAR</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- REGLAS -->
+    <section class="rules">
+      <div class="rules__text">
+        <h2 class="title title_align_left" data-i18n="rulesTitle">Reglas del juego</h2>
+        <p class="rules__description" data-i18n="rulesText">Los jugadores se turnan para presionar las burbujas. Es obligatorio terminar la fila que empezaste. Se pueden presionar como máximo 3 burbujas a la vez (deben estar juntas; no se pueden presionar varias burbujas si no están pegadas). El objetivo es lograr que tu rival juegue último. ¡Quien juegue último, pierde!</p>
+      </div>
+      <img src="Pop It/images/photo.jpg" alt="Mano presionando las burbujas de un pop it" class="rules__photo" data-i18n-alt="photoAlt">
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <a href="#" class="footer__logo" data-i18n="logo">NO_BURBUJAS.COM</a>
+    <ul class="footer__list">
+      <li class="footer__item"><a href="#" class="footer__link" data-i18n="footPay">Formas de pago</a></li>
+      <li class="footer__item"><a href="#" class="footer__link" data-i18n="footDelivery">Envíos</a></li>
+      <li class="footer__item"><a href="#" class="footer__link" data-i18n="footWholesale">Mayoreo</a></li>
+      <li class="footer__item"><a href="#" class="footer__link" data-i18n="footContact">Contacto</a></li>
+    </ul>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
