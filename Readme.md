@@ -1,6 +1,6 @@
 # Pop It! — Billy Salmeron
 
-Landing page de una tienda de juguetes antiestrés (*pop it*), creada como tarea práctica de **Diseño Web** para el rol de tutor. El sitio es adaptable a distintos tamaños de pantalla y está disponible en **español y ruso**.
+Landing page de una tienda de juguetes antiestrés (*pop it*), creada como tarea práctica de **Diseño Web** para el rol de tutor. El sitio es adaptable a distintos tamaños de pantalla y está disponible en **español y ruso**. Visual Code
 
 ## Contenido
 
@@ -37,22 +37,9 @@ La página tiene cinco bloques:
 
 ### 1. Código válido y organizado con BEM
 
-Cada bloque independiente de la página tiene su propio nombre, y sus partes se nombran con `bloque__elemento`. Las variantes se expresan con `bloque_modificador_valor`.
+Cada bloque independiente de la página tiene su propio nombre, y sus partes se nombran con bloque__elemento. Las variantes se expresan con bloque_modificador_valor.
 
-| Bloque | Elementos | Modificadores |
-|---|---|---|
-| `header` | `header__logo`, `header__actions`, `header__burger`, `header__burger-line` | `header__burger_active` |
-| `menu` | `menu__list`, `menu__item`, `menu__link` | `menu_opened` |
-| `lang-switch` | `lang-switch__option` | `lang-switch__option_active` |
-| `hero` | `hero__bg`, `hero__content`, `hero__text`, `hero__title`, `hero__subtitle` | — |
-| `button` | — | `button_type_primary`, `button_type_small` |
-| `title` | — | `title_align_left` |
-| `about` | `about__text` | — |
-| `choose` | `choose__list` | — |
-| `card` | `card__image`, `card__name` | — |
-| `rules` | `rules__text`, `rules__description`, `rules__photo` | — |
-| `footer` | `footer__logo`, `footer__list`, `footer__item`, `footer__link` | — |
-
+Ejemplo: el bloque card tiene los elementos card__image y card__name, y el bloque button tiene los modificadores button_type_primary y button_type_small.
 
 ### 2. Flexbox / Grid para la distribución
 
